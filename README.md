@@ -42,19 +42,27 @@ This Python Bot script manages WebSocket connections through specified HTTP prox
 - Proxy Server - you can buy DataCenter Proxies to Earn $NODEPAY Some Free Cheap proxies (Best proxy providers is webshare)
 - Get NP_token andcUser ID from Nodepay Dashboard
 
-## SETPS TO RUN THE CODE -
+## SETPS TO RUN THE CODE
 
 Before running the script, ensure you have Python installed on your machine. Then, install the necessary Python packages using:
 
-1. ``` git clone https://github.com/Solana0x/nodepay.git ```
-2. ``` cd nodepay ```
-3. ``` pip install -r requirements.txt ```
-4. Replace `NP TOken` list in correct formate in `node.py` File Line ```9```.
-5. By default 100 proxies will be taken randomly if you wana change then change here `active_proxies = [proxy for proxy in all_proxies[:100] if is_valid_proxy(proxy)]` line 169. Here 100 means 100 proxy will be used at once.
-6. Dont Forget to add multiple proxies in the proxy.txt file you can add 1000+ proxy !! Formate # `HTTP://username:pass@ip:port`.
-7. You can get Multiple Proxy Ip address from Proxies.fo Website !! [use multiple IP ! `1 IP == ~1400 $NODEPAY per Day `.
-8. To Run Script `python3 node.py` - Proxy one
-10. To Run multiple User ID just copy paste the `node.py` file code and create new python file and repeat the process !!. 
+1. Run
+    ```
+   git clone https://github.com/0xWinNode/NODEPAY.git   ```
+2. Run
+   ```
+   cd NODEPAY
+   ```
+3. Run
+   ```
+   pip install -r requirements.txt
+   ```
+7. Replace `NP TOken` list in correct formate in `node.py` File Line ```9```.
+8. By default 100 proxies will be taken randomly if you wana change then change here `active_proxies = [proxy for proxy in all_proxies[:100] if is_valid_proxy(proxy)]` line 169. Here 100 means 100 proxy will be used at once.
+9. Dont Forget to add multiple proxies in the proxy.txt file you can add 1000+ proxy !! Formate # `HTTP://username:pass@ip:port`.
+10. You can get Multiple Proxy Ip address from Proxies.fo Website !! [use multiple IP ! `1 IP == ~1400 $NODEPAY per Day `.
+11. To Run Script `python3 node.py` - Proxy one
+12. To Run multiple User ID just copy paste the `node.py` file code and create new python file and repeat the process !!. 
 
 **Note** - 1 ip == 1000-1400 $Nodepay Per Day.
 
